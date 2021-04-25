@@ -718,6 +718,7 @@ int main(void)
     ListInsert(L1, 2, 2);
     ListInsert(L1, 3, 3);
     ListInsert(L1, 4, 4);
+    ListInsert(L1, 5, 5);
     ListInsert(L1, 3, 10);
     ListTraverse(L1);
     printf("%d\n", locateelem(L1, 10));
